@@ -4,7 +4,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of pullrequest is to fetches a pull request from GitHub so it can be examined in RStudio before merging it
+The goal of pullrequest is to fetches a pull request from GitHub so it can be examined in RStudio before merging it.
+
+Code modified from https://happygitwithr.com/pr-extend.html
 
 
 
@@ -28,4 +30,5 @@ examine_pull_request(user = "audhalbritter",
                      branch = "FixGitTutorial",
                      default_branch = "main") 
 ```
+
 
