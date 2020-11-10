@@ -1,0 +1,18 @@
+Package: pullrequest
+Title: Fetches pull requests so they can be examined
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Richard",
+           family = "Telford",
+           role = c("aut", "cre"),
+           email = "richard.telford@uib.no",
+           comment = c(ORCID = "0000-0001-9826-3076"))
+Description: Fetches pull requests from github so they can be examined.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue,
+    git2r
