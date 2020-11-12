@@ -16,7 +16,7 @@ examine_pull_request <- function(user, repo, branch, default_branch = "main"){
   if(!user %in% remotes()){
     remote_add(
       name = user, 
-      url = glue("https://github.com/{user}/{repo}biostats.git")
+      url = glue("https://github.com/{user}/{repo}.git")
     )
   }
   
